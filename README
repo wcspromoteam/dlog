@@ -1,0 +1,21 @@
+PACKAGE
+
+package dlog
+import "github.com/wcspromoteam/dlog"
+
+A simple debug logging package that provides facilities for logging things to a logfile.
+
+
+FUNCTIONS
+
+func Fatalf(format string, v ...interface{})
+Output to stderr AND stdout
+
+func Fatalln(v ...interface{})
+Outputs to stderr AND stdout
+
+func Printf(format string, v ...interface{})
+Logs to stdout, which will end up in a log file.
+
+func Println(v ...interface{})
+Logs to stdout, which will end up in a log file.
